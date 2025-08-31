@@ -71,13 +71,3 @@ def emotion_detector(text_to_analyze):
             'sadness': None,
             'dominant_emotion': None
         }
-
-if __name__ == "__main__":
-    test_text_joy = "I love this new technology."
-    result_joy = emotion_detector(test_text_joy)
-    print("Emotion Detection Result for 'I love this new technology.':", result_joy)
-
-    test_text_anger = "I am so happy I am doing this."
-    result_anger = emotion_detector(test_text_anger)
-    print("Emotion Detection Result for 'I am so happy I am doing this.':", result_anger)
-
